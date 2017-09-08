@@ -25,6 +25,7 @@ h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
+//Background Gradient
 .navbar, .home-callout {
   /*Gradient provided by @_igosh at uiGradients.com*/
   background: #667db6;  /* fallback for old browsers */
@@ -43,13 +44,23 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
-//Background Gradient
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
     &:hover {
       color: white;
       opacity: 0.75;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #0082c8;
   }
 }
 
